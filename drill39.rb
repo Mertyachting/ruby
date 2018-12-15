@@ -43,4 +43,6 @@ class Drill39
   cities.each do |city, state|
     puts "#{state} is in #{city}"
   end
+
+  #
 end
