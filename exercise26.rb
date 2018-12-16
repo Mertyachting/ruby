@@ -91,4 +91,5 @@ END
     sorted_words = Ex25.sort_sentence(sentence)
     Ex25.print_first_and_last(sentence)
     Ex25.print_first_and_last_sorted(sentence)
-    end
+  end
+end

@@ -44,5 +44,23 @@ class Drill39
     puts "#{state} is in #{city}"
   end
 
-  #
+  # now do both at the same time
+  puts '_'*20
+  states.each do |state, kürzel|
+    city = cities[kürzel]
+    puts "#{state} hat das Kürzel #{kürzel} und hat die Stadt #{city}"
+  end
+
+  state = states['Baden-Würtenberg']
+
+  if !state
+    puts "Sorry, no Texas."
+  end
+
+  # default values //= with the nil result
+  city = cities['BW']
+  city ||= 'Does Not Exist'
+  puts "The City for the state 'BW' is: #{city}"
+
+
 end
