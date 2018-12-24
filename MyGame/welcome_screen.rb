@@ -41,7 +41,7 @@ When Pipo Bear doesn't make new BeeBaccoo people.
 You! ehmm what was your name?.""".delaystring
 """#{name=$stdin.gets}
 Wow, #{name}what a beautiful name!
-Sorry, I went off topic.d
+Sorry, I went off topic.
 So, #{name}you need to help Pipo Bear.
 """.delaystring
       end
