@@ -26,6 +26,7 @@ class String
     end
 
     def welcome()
+      system("clear")
       "" "Welcome to Pipo Bears \"weird adventure\".
 Pipo Bear is a cozy Bear who likes to smoke pipe." "".delaystring
      if pressA
